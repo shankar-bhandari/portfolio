@@ -41,7 +41,7 @@ const HeroImage = () => {
                                 <a title="Hire Me" href="mailto:bhandarishankar.official@gmail.com" className="text-base font-semibold text-white bg-blue-700 py-4 px-8 hover:bg-opacity-80 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Hire me
                                 </a>
-                                <a title="Github Profile" href="https://github.com/shankar-bhandari" target="_blank" className="text-base font-semibold text-white bg-white bg-opacity-10 py-4 px-8 hover:bg-opacity-20 hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
+                                <a title="Github Profile" href="https://github.com/shankar-bhandari" target="_blank" className="text-base font-semibold text-white bg-white bg-opacity-10 py-4 px-8 hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Github Profile
                                 </a>
                             </div>
