@@ -87,7 +87,7 @@ export default function Contact() {
                       {...register("message", { required: "Message is required" })}
                       rows={5}
                       placeholder="Enter your Message"
-                      className="w-full border border-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 resize-none hoover:bg-[#FFFFFF]"
+                      className="w-full border border-transparent rounded-md bg-transparent py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 bg-white resize-none"
                     ></textarea>
                     {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message as string}</p>}
                   </div>
