@@ -57,7 +57,7 @@ export default function Contact() {
                       {...register("name", { required: "Name is required" })}
                       type="text"
                       placeholder="Enter your name"
-                      className="w-full border border-transparent bg-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 hoover:bg-[#FFFFFF] "
+                      className="w-full border border-transparent bg-white rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 "
                     />
                     {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message as string}</p>}
                   </div>
