@@ -57,7 +57,7 @@ export default function Contact() {
                       {...register("name", { required: "Name is required" })}
                       type="text"
                       placeholder="Enter your name"
-                      className="w-full border border-transparent bg-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700  bg-[#FFFFFF] "
+                      className="w-full border border-transparent bg-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 hoover:bg-[#FFFFFF] "
                     />
                     {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message as string}</p>}
                   </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                       })}
                       type="email"
                       placeholder="Enter your email"
-                      className="w-full border border-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 bg-[#FFFFFF]"
+                      className="w-full border border-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 hoover:bg-[#FFFFFF]"
                     />
                     {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message as string}</p>}
                   </div>
@@ -87,7 +87,7 @@ export default function Contact() {
                       {...register("message", { required: "Message is required" })}
                       rows={5}
                       placeholder="Enter your Message"
-                      className="w-full border border-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 resize-none"
+                      className="w-full border border-transparent rounded-md shadow-one shadow-signUp py-3 px-6 outline-none focus-visible:shadow-none focus:border-blue-700 resize-none hoover:bg-[#FFFFFF]"
                     ></textarea>
                     {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message as string}</p>}
                   </div>
